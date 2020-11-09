@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Formulaire de reservation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Formulaire de réservation</h1>
+        <form method = "get"action = "traitenom.php" >
+		<h2>Vous êtes:</h2>
+            Nom <input type= "text" name = "nom" /></br>
+			Prenom <input type= "text" name = "Prénom" /></br>
+			Mot de passe <input type="password" name="mdp" size="8"/>
+			<input type="radio" value="Madame" name="reponse"/> Madame
+							<input type="radio" value="Monsieur" name="reponse" checked/>Monsieur
+							</select>
+			Type de chambre <select size="2" name="Type de chambre">Type de chambre
+				<option value="Chambre avec un lits">Chambre avec un lits</option>
+				<option value="Chambre avec deux lits">Chambre avec deux lits</option>
+				<option value="Chambre avec un double lit">Chambre avec un double lit</option>
+				<option value="Chambre de la famille">Chambre de la famille</option>
+				<h2>Vous désirez réserver en plus:</h2>
+			<input type="checkbox" name="NS" value="Petit Dejuner" checked/>Nouvelle Star
+<input type="checkbox" name="SA" value="StarAc"/> Star Academy
+                <input type ="submit">
+				<input type="reset" value="Rétablir" name="B3"/>
+
+        </form>
+     </body>
+</html>

@@ -1,0 +1,68 @@
+
+		body {
+				padding-left: 11em;
+				font-family: Georgia, "Times New Roman", Times, serif;
+                color: #d61505 ;
+                background-color: #c1fac6  }
+		nav ul{
+				list-style-type: none; 
+				padding: 1;
+				margin: 1; 
+                position: absolute;
+                top: 4em;
+                left: 1em; 
+                width: 9em } 
+		 header {
+               font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+			   font-size: 16px;
+			   border: 5px blue inside;
+			   border-radius: 10px;
+			   }
+		
+		nav ul li { 
+				background: #89f7a2  ; 
+				margin: 0.5em 0; 
+				padding: 0.3em;
+				border-right: 1em solid white; 
+				}
+		nav ul a {
+				text-decoration: none }
+		a:link {
+				color:blue }
+				a:visited { color: green }
+		section {
+				
+				width: 500px;
+				border: 1px double blue;
+				text-align: justify;
+				padding: 12px;
+				margin: 5px;
+				display: flex;
+				}
+		.FORMATION{
+				width: 700px;
+				border: 1px double blue;
+				text-align: justify;
+				padding: 12px;
+				margin: 5px;
+				display: flex;
+		}                
+		.EXPERIENCE{
+				width: 700px;
+				border: 1px double blue;
+				text-align: justify;
+				padding: 12px;
+				margin: 5px;
+				display: flex;
+		}
+		aside{
+			flex: 1.2;
+			position: relative;
+			background-color: #70ace0;
+			box-shadow: 0px, 2px, 5px, #bccfe0;
+			border-radius: 5px;
+			padding: 10px;
+			color: white;
+			font-size: 0.9em;
+		}
+		
